@@ -1,0 +1,11 @@
+.parrafo {
+	position: fixed;
+	top: 50px;
+	left: 0px;
+}
+.parrafo2 {
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	border: 5px solid green;
+}
