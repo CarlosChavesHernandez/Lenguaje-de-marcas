@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta content="Carlos" name="Autor">
+	<link rel="stylesheet" type="text/css" href="E:/1ªDAW/LMSGI/EJ6/ej5.css">
+	<title>Ejercicio 5: Posicionamiento de distintas cajas.</title>
+</head>
+<body>
+	<h1>La propiedad de la posición</h1>
+	<h2>posición: estática;</h2>
+	<br>
+	<p>
+		El elemento Parent1 tiene position: static y permanecerá en el flujo natural de la pagina. NO actuará como punto de anclaje para el elemento Child1
+	</p>
+	<br>
+	<div class="child1">
+		<p>
+			Child1: posición: absoluta, derecha: 15 px, superior: 70px
+		</p>
+	</div>
+	<div class="padre1">
+		<p>
+			Padre1: posición: estática.
+		</p>
+	</div>
+	<h2>posición: relativa;</h2>
+	<p>
+		El elemento Parent2 tiene posicion:	relativa y permanecerá en el flujo natural de la pagina. Tambien actuará como punto de anclaje para el elemento Child2 absolutamente posicionado:
+	</p>
+	<div class="padre2">
+		<p>Padre2; puesto: relativo</p>
+		<div class="child2">
+		<p>Child2: posición: absoluta, derecha:15 px, superior 70px</p>
+	</div>
+	</div>
+	<h2>posición: absoluta;</h2>
+	<p>
+		El elemento Parent3 tiene posición: absoluta y NO permanecerá en el flujo natural de la pagina. Se poscionará de acuerdo con el antepasado posicionado más cercano. También actuará como punto de anclaje para el elemento Child3 absolutamente posicionado:
+	</p>
+	<div class="parent3">
+		<p>
+			Parent3: posición: absoluta, superior: 750 px, derecha: 15 px.
+		</p>
+		<div class="child3">
+			<p>
+				Child3: posición: absoluta, derecha: 15 px, superior: 70 px.
+			</p>
+		</div>
+	</div>
+	<h2>Posción: fija;</h2>
+	<p>
+		El elemento Parent4 tiene position: fixed y NO permanecerá en el flujo natual de la pagina. Se posicionará de acuerdo con la ventana gráfica. Tambien actuará como punto de anclaje para el elemento Child4 absolutamente  posicionado:
+	</p>
+	<div class="parent4">
+		<p>
+		Parent4: posición: fija, inferior: 0, izquierda:0 , derecha: 0.
+		</p>
+		<div class="child4">
+			<p>
+				Child4: posición: absoluta, derecha 15px, superior70px.
+			</p>
+		</div>
+	</div>
+</body>
+</html>

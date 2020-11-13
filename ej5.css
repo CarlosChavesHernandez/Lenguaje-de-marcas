@@ -1,0 +1,55 @@
+.child1 {
+	position: absolute;
+	top: 70px;
+	right: 15px;
+	border: 2px solid red;
+	text-align: justify;
+}
+.padre1 {
+	position: static;
+	border: 2px solid blue;
+	text-align: justify;
+	width: 20%;
+	height: 150px;
+}
+.padre2 {
+	position: relative;
+	border: 2px solid blue;
+	width: 20%;
+	height: 150px;
+}
+.child2 {
+	position: absolute;
+	right: 15px;
+	top: 70px;
+	border: 2px solid red;
+}
+.parent3 {
+	position: absolute;
+	top: 750px;
+	right: 15px;
+	border: 2px solid blue;
+	width: 20%;
+	height: 150px;
+}
+.child3 {
+	position: absolute;
+	right: 15px;
+	top: 70px;
+	border: 2px solid red;
+}
+.parent4{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	border: 2px solid blue;
+	width: 20%;
+	height: 150px;
+}
+.child4{
+	position: absolute;
+	right: 15px;
+	top: 70px;
+	border: 2px solid red;
+}
